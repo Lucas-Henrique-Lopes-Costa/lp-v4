@@ -1,0 +1,121 @@
+/* =============================================================================
+   Normalize.css
+   ========================================================================== */
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* Correção de problemas comuns de display em elementos HTML5 */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/* Correção de estilo e espaçamento em listas */
+ol,
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Correção de estilo de fonte e margens em elementos de corpo */
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* Correção de estilos de hyperlink */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Remoção do sublinhado padrão para links não visitados */
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+
+/* Correção de estilo de cabeçalhos */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/* Correção de estilo de input */
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Correção de estilo para elementos incorporados */
+img {
+  max-width: 100%;
+}
+
+/* Correção de estilo para elementos de tabela */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Normalização da aparência do cursor */
+button,
+select,
+textarea {
+  cursor: pointer;
+}
+
+/* Remoção do estilo padrão do botão em alguns navegadores */
+button {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+}
+
+/* Normalização de quebras de linha */
+pre,
+code {
+  white-space: pre-wrap;
+}
+
+/* ==========================================================================
+   Seção de ajustes específicos do navegador
+   ========================================================================== */
+
+/* Correção de estilo para o Firefox */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/* Correção de estilo para o Internet Explorer 11 */
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  /* Ajustes específicos do IE 11 aqui */
+}
